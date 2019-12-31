@@ -1,0 +1,811 @@
+/*****BASE STYLES*****/
+
+body {
+	font-family: ;
+	background-color: #5d5c5a;
+	max-width: 100%;
+}
+
+#work, #contact, #services, #motto, #pricing, {
+	height: 600px;
+}
+
+/*****GRID*****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+ .third-width {
+	width: 400px;
+	float: left;
+	padding-top: 10px;
+}
+
+/*****HEADER*****/
+  
+header {
+
+	height: 600px;
+	background-size: cover;
+
+
+}
+ 
+header h1 {
+ 	font-family: 'Open Sans', sans-serif; 
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	width: auto;
+	padding: 12px;
+	margin: 10px;
+	color: black;
+	text-transform: uppercase;
+}
+
+ header h2 {
+	font-size: 18px;
+	text-align: left;
+	padding: ;
+	float: left; 
+	color: ;
+}
+
+#CPS {
+	letter-spacing: 4px;
+	color: #f9f9f9;
+	font-size: 20px;
+	padding: 26px;
+    margin: ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.passion {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    transform: translate(-50%, -50%); 
+    
+    font-size: 40px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	
+	color: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+	float: right;
+	padding: 20px 42px 0 20px;
+	margin: 10px;
+
+}
+
+header nav a {
+	font-family: 'Open Sans', sans-serif; 
+	color: #f9f9f9;
+	font-size: 15px;
+	padding: 0px 10px;
+	margin: 10px 0 0 10px;
+
+}
+
+.button {
+    background-color: #6cc575; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #5c5d5a; 
+    color: black; 
+    border:  ;
+}
+
+.button1:hover {
+    background-color: #6cc575;
+    color: white;
+}
+
+img {
+	width: 1200px;
+	height: 585px;
+	float: left;
+	margin: ;
+	padding: ;
+	opacity:  ;
+}
+
+ 
+
+/*****About Section*****/
+
+#about {
+	text-align: center;
+	background-color: #f9f9f9;
+	height: 500px;
+
+}
+
+#about .full-width {
+	padding: 115px 0;
+
+}
+
+
+#about h2 {
+	font-size: 32px;
+	width: 190px;
+	margin: auto;
+	padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about p {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	line-height: 28px;
+	padding: 24px 35px;
+	text-align: left;
+} 
+
+#about img {
+	font-size: 20px;
+}
+
+/*****Services Section*****/
+
+#services {
+	text-align: center;
+	background-color: #d7d7d6;
+	height: 500px;
+ }
+
+#services .full-width {
+	padding: 95px 0 ;
+}
+
+#services h2 {
+	font-size: 32px;
+	width: 190px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#services h3 {
+	font-size: 12px;
+	font-family: ;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#services p {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 12px 35px;
+	text-align: left;
+}
+
+#services img {
+	width: 600px;
+	height: 320px;
+	padding-left: 100px;
+	margin-top: 25px;
+	margin-left: 75px;  
+	padding: 1px;
+	background-color: gray;
+	box-shadow: 5px 5px 2px gray;
+} 
+/*****MOTTO*****/
+/* Removed this section from the html
+#motto {
+	text-align: ;
+	background-color: #f9f9f9;
+	height: 500px;
+
+}	 
+
+
+#motto .full-width {
+	padding: 70px 0;
+}
+
+#motto h2 {
+	font-size: 32px;
+	width: 190px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#motto img {
+	width: 1200px;
+	height: 400px;
+	float: right;
+	opacity: ;
+}
+
+.kind {
+    position: absolute;
+    top: 300%;
+    left: 40%;
+     transform: translate(-50, -50); 
+    font-size: 18px;
+	letter-spacing: 6px;
+	text-align: left;
+	font-family: "Lora", serif;
+	color: #f9f9f9;
+	
+}
+
+.quotes {
+	position: absolute;
+	top: 295%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	color: #f9f9f9;
+
+}
+
+.owner {
+	position: absolute;
+	top: 415%;
+	left: 12%;
+	transform: translate(-50% -50%);
+	text-align: left;
+	color: #f9f9f9;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.owner-two {
+	position: absolute;
+	top: 320%;
+	left: 16.75%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	color: #f9f9f9;
+	font-family: 'Open Sans Condensed' , sans-serif;
+}
+*/
+
+/*****Contact form*****/
+
+#pricing {
+	text-align: ;
+	background-color: #f9f9f9;
+	height: 500px;
+	padding-left: 60px;
+	padding-top: 10px;
+}	
+
+#pricing .full-width {
+	padding: ;
+}
+
+#pricing h2 {
+	font-size: 24px;
+	width: 190px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+#pricing p {
+
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#fa-envelope {
+	padding-left: ;
+}
+ 
+
+/* Forms Box*/
+
+ .container {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+	position:;
+	float: center;
+	 
+}
+
+form {
+	font-size: 18px;
+}
+
+#input-submit {
+	color: #f9f9f9;
+	background: #5c5c5d;
+	cursor: pointer;
+	border-radius: 4px;
+	height: 40px;
+}
+
+input {
+	width: 400px;
+	height: 22px;
+	background-color: #d7d7d8;
+}
+
+ 
+
+ input[type=text] {
+    border: 2px;
+    border-color: #6cc575;
+    border-radius: 4px;
+	
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #d7d7d8;
+    font-size: 18px;
+    resize: none;
+}
+
+.computer img {
+	width: 600px;
+	height: 320px;
+	padding-left: 100px;
+	margin-top: 45px;
+	margin-left: 75px;  
+	padding: 1px;
+	background-color: gray;
+	box-shadow: 5px 5px 2px gray;
+} 
+
+/*****Contact*****/
+
+#contact {
+	text-align: center;
+	background-color: ; 
+	height: 500px;
+
+}
+
+#contact .full-width{
+	padding: 20px 0;
+}
+
+#contact h2 {
+
+	font-size: 32px;
+	width: ;
+	color: #8d9281;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 30px;
+	float: left;
+}
+
+ 
+
+#clean-pace {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 4px;
+	color: #8d9281;
+	font-size: 28px;
+	padding: 20px;
+     
+}
+
+ #contact h1 {
+	border-bottom: solid 1px #8d9281;
+	width: 1200px;
+	margin-left: 16px;
+	margin-bottom: 10px;
+}
+
+#contact h3 {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.icon {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	color: #8d9281;
+
+}
+
+.icon-two {
+	float: right;
+	color: #8d9281;
+	font-size: 30px;
+}
+
+ #contact p {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	color: #6cc575;
+	line-height: 28px;
+	padding: 80px 35px;
+	margin-top: 30px;
+	text-align: left;
+ 
+}
+
+/***** Footer and Tag*****/
+
+footer {
+	height: 100px;
+	 
+} 
+
+.footer p {
+	color: #6cc575;
+ 	font-size:  
+}
+
+
+.tag {
+	margin-left: 550px;
+	margin-bottom: 20px;
+ }
+
+.copyright {
+    margin-left: 550px;
+    padding-bottom: 10px;
+    color: #8d9281;
+    font-size: 12px;
+    
+}
+
+.mop {
+	position: absolute;
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: ;
+    font-size: ;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-family: "Lora", serif;
+	color: #f9f9f9;
+	 
+	 
+}
+
+#mop {
+	opacity: 0.5;
+}
+
+.email {
+	font-size: 18px;
+	font-family:   ;
+}
+
+a[href^="tel:"] {
+	color: #6cc575;
+	font-family:  ;
+}
+
+a[href^="mailto:"] {
+	color: #6cc575;
+	font-family:  ;
+}
+ 
+/*************** MEDIA QUERIES***************/
+ 
+/** Max-Width 600px **/
+
+@media (max-width: 600px) {
+ 	.
+ } 
+ 
+
+/** Tablets **/
+
+@media only screen and (min-width: 768px)
+and (max-width: 1024px) {
+	body{
+		width: 100%;
+	}
+
+	header{
+		width: 100%;
+	}
+
+	header img {
+		width: 100%;
+	}
+
+	#cps {
+		letter-spacing: 4px;
+		color: #f9f9f9;
+		font-family: 20px;
+		padding: 26px;
+	}
+	.center {
+		position:absolute;
+		top: 50%;
+		left: 25%;
+		transform: ;
+		font-size: 40px;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		font-family: 'Lora', serif;
+		color: #f9f9f9;
+}
+	#about .full-width{
+		width: 100%;
+		padding: 115px 0
+}
+	#about{
+		text-align: center;
+		background-color: #f9f9f9;
+		height: 600px;
+}
+	#about h2{
+		font-size: 38px;
+		margin: auto;
+		padding: 15px;
+		font-family: 'Open Sans', sans-serif;
+
+}
+	#about p{
+		font-size: 20px;
+		line-height: 26px;
+		padding: 2px 0px;
+		text-align: left;
+		font-family: 'Lora', serif;
+}
+	
+	#about .third-width{
+		width: 312px;
+		padding-left: 10px;
+
+}
+
+	#services .third-width{
+		width: 400px;
+		 
+	}
+	#services h2 {
+		font-size: 30px;
+		font-family: 'Open Sans', sans-serif;
+		margin: auto; 
+	}
+
+	#services p {
+		font-size: 17px;
+		line-height: 21px;
+		padding: 2px 0
+		margin-left: 10px;
+	}
+	#services img {
+		 width:50%;
+		 margin-top: 14px;
+		 margin-left: 5px; 
+		 padding: .5px;
+		 padding-left: .5px;
+		 background-color: none;
+		 box-shadow: none; 
+
+	}
+
+	#motto h2{
+		font-size: 32px;
+		width: 190px;
+		margin: auto;
+		font-family: 'Open Sans', sans-serif;
+
+	}
+	.kind {
+		position: absolute;
+		transform: translate(-50, -50);
+		top: 182%;
+		font-size: 12px;
+		letter-spacing: 6px;
+		color: #f9f9f9;
+		font-family: 'Open Sans Condensed', sans-serif;
+
+	}
+	.quotes{
+		position: absolute;
+		top: 180%;
+		text-align: left;
+		color: #f9f9f9;
+	}
+	.owner {
+		position: absolute;
+		top: 190%;
+		text-align: left;
+		color: #f9f9f9;
+		font-family: 'Open Sans Condensed', sans-serif;
+
+	}
+	.owner-two {
+		position: absolute;
+		top: 193%;
+		left: 18%;
+		color: #f9f9f9;
+		font-family: 'Open Sans Condensed', sans-serif;
+		text-align: left;
+
+	}
+	#contact .full-width{
+		 width: 1024px;
+	}
+	 #contact img{
+	 	width: 100%;
+	 }
+	 
+}
+
+
+/** Desktops **/
+
+
+ @media only screen and (min-width: 1025px) and (max-width:1223px){
+	.center {
+		position: absolute;
+		top: 50%;
+		left: 25%;
+	}
+
+	.kind {
+		position: absolute;
+		transform: translate(-50, 50);
+		top: 172%;
+		left: 12px;
+		font-size: 28px;
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+	
+	.quotes {
+		position: absolute;
+		top: 170%;
+		text-align: left;
+		color: #f9f9f9;
+	}
+
+	.owner{
+		position: absolute;
+		top: 18%;
+		text-align: left;
+		color: #f9f9f9;
+		font-family: 'Open Sans Condensed', sans-serif;
+		 
+	}
+	.owner-two{
+		position: absolute;
+		top: 185%;
+		text-align: left;
+		color: #f9f9f9;
+		font-family: 'Open Sans Condensed', sans-serif;
+		
+	}
+}
+
+
+/** Desktops and Laptops **/
+
+@media only screen and (min-width: 1224px) {
+	
+	header img {
+		width: 100%;
+}
+	#cps {
+	letter-spacing: 4px;
+	color: #f9f9f9;
+	font-size: 20px;
+	padding: 26px;
+
+}
+
+	.center {
+		position: absolute;
+		top: 50%;
+		left: 22%;
+		transform: translate(-50%, -50%);
+		font-size: 45px;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		font-family: 'Lora', serif;
+		color: #f9f9f9; 
+}
+
+	#motto img {
+		width: 1241px;
+		height: 400px;
+}
+	#motto h2 {
+		font-size: 32px;
+		width: 190px;
+		margin: auto;
+		font-family: 'Open Sans', sans-serif;
+}	
+	 .kind {
+	 	position: absolute;
+	 	transform: translate(-50, -50);
+	 	top: 170%;
+	 	left: 14%;
+	 	  
+		font-size: 32px;
+		letter-spacing: 6px;
+		color: #f9f9f9;
+		font-family: 'Open Sans Condensed', sans-serif
+}
+	 .quotes {
+	 	position: absolute;
+	 	top: 168%;
+	 	left: 15%;
+	 	transform:  
+		text-align: left;
+		color: #f9f9f9;
+}
+	 .owner {
+	 	position: absolute;
+	 	top: 180%;
+	 	left: 14%;
+	 	text-align: left;
+	 	color: #f9f9f9;
+	 	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+	 .owner-two {
+	 	position: absolute;
+	 	top: 183%;
+	 	left: 19%;
+	 	text-align: left;
+	 	color: #f9f9f9;
+	 	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+}
+
+
+/* Removed this section from the HTML
+<section id="motto">
+				    <div class="full-width">
+				    <div class="third-width"> 
+				      <h2>Kind Words</h2>
+				      <i class="fa fa-quote-left quotes" aria-hidden="true" style="font-size: 40px;"></i>	
+				     <p class="kind">We guarantee the highest level of professionalism as well as cleanliness for each and every job. </p>
+				      <h3 class="owner">Jackie Werntz</h3>
+				      <h4 class="owner-two">Clean Pace Solutions LLC</h4>
+				    </div>
+				  </div>
+				    <div>
+					  <img src="img/office-eight.jpg" alt="Office Seven" style="width: 1200px">
+				    </div>
+				    <div>
+				       
+				     </div>  
+				 </section> 
+
+
+*/
